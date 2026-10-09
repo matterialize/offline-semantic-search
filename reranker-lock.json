@@ -1,0 +1,50 @@
+{
+  "id": "cross-encoder/ettin-reranker-17m-v1",
+  "revision": "9e4aa35321a6dd1a43ca313f500c4b4f7cfb5cc6",
+  "files": [
+    {
+      "path": "config.json",
+      "sha256": "f83c222e8684701525bfa5e0aaa2371724974dc7fb728174cca02e280feda1ad"
+    },
+    {
+      "path": "tokenizer.json",
+      "sha256": "28c5e078e4c52aa37cf0e6de1a212878f3dbd58dd1c70466298efe0b6b86db35"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "sha256": "2b85302525d8c528a9e1fbaea2733472bd00d4755eae881441c8c52b90e2d600"
+    },
+    {
+      "path": "onnx/model_qint8_arm64.onnx",
+      "sha256": "b485f6bf9da93544a6caee44c3170d12db4d5aa35350ea21d1dfd4a8281ed903"
+    },
+    {
+      "path": "2_Dense/config.json",
+      "sha256": "acea183be3358e74570d01645bf1688fea67bd54cb3043b46c4a898950f43462"
+    },
+    {
+      "path": "2_Dense/model.safetensors",
+      "sha256": "85e9596d9250a871deb159fb5db6979e910b4cf181d05c806733c49bc43d47c8"
+    },
+    {
+      "path": "3_LayerNorm/config.json",
+      "sha256": "d0db57df3d6d4cce730fd010f7dadbd6b3ad36277c9e66cb2077ebcbe68f8b75"
+    },
+    {
+      "path": "3_LayerNorm/model.safetensors",
+      "sha256": "de99fa351fb4badb74b56e85fa70b5bbd3fcf4d0e74de79eb749dba1e9e28b4a"
+    },
+    {
+      "path": "4_Dense/config.json",
+      "sha256": "b6e9ce4b52d9801d2d2dcc9da7bbcfbb75aae11aefe616af75d1f58f8cc2482b"
+    },
+    {
+      "path": "4_Dense/model.safetensors",
+      "sha256": "654827171b89c76d19d663162243f38d63d1ba812ac1ec9c1b36512f1a8e9ce8"
+    },
+    {
+      "path": "onnx/model.onnx",
+      "sha256": "2a375ccea150a4df925a47884b510eeb4bd6227ca6fffdbbc62ca2284bfe6211"
+    }
+  ]
+}

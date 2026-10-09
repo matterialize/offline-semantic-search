@@ -1,0 +1,38 @@
+{
+  "name": "offline-semantic-search",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "assets": "node scripts/fetch-assets.mjs",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:browser": "playwright test",
+    "demo": "node scripts/serve.mjs",
+    "evaluate": "node scripts/evaluate.mjs",
+    "safari": "node scripts/safari.mjs",
+    "check": "npm run typecheck && npm test && npm run build",
+    "dev": "node scripts/dev.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "package:store": "npm run build && node scripts/package-store.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.0",
+    "webextension-polyfill": "0.12.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "@types/node": "22.19.15",
+    "@types/webextension-polyfill": "0.12.4",
+    "esbuild": "0.28.2",
+    "sharp": "0.35.4",
+    "typescript": "5.9.3",
+    "vite": "8.3.2",
+    "vitest": "4.1.11"
+  },
+  "license": "Apache-2.0"
+}

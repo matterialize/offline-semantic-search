@@ -1,0 +1,8 @@
+[
+  { "query": "How can I send it back without a printer?", "relevantElementIds": ["printerless"] },
+  { "query": "Can I turn down the light at night?", "relevantElementIds": ["dimming"] },
+  { "query": "My order arrived broken. What should I do?", "relevantElementIds": ["damage"] },
+  { "query": "Do I have to keep the packaging to send it back?", "relevantElementIds": ["return-box"] },
+  { "query": "When will I get my money back?", "relevantElementIds": ["refund"] },
+  { "query": "Do I need to buy a new lamp if the bulb dies?", "relevantElementIds": ["repair"] }
+]

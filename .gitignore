@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-dev/
+public/models/
+public/runtime/
+public/icons/
+artifacts/
+test-results/
+playwright-report/
+safari/
+.DS_Store
+*.local
+.impeccable/

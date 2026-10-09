@@ -1,0 +1,103 @@
+{
+  "source": "https://en.wikipedia.org/wiki/Apple_Inc.",
+  "date": "2026-10-09",
+  "notes": "Single live-page desktop validation; not a controlled comparative benchmark. Article text by Wikipedia contributors, CC BY-SA 4.0; attribution: docs/THIRD_PARTY_CONTENT.md.",
+  "first": {
+    "metrics": {
+      "embeddingInferenceMs": 2359,
+      "embeddingRuntime": {
+        "device": "webgpu",
+        "dtype": "q4f16"
+      },
+      "embeddingBatchSize": 8,
+      "rerankerRuntime": {
+        "device": "webgpu",
+        "dtype": "fp32"
+      },
+      "rerankBatches": 10,
+      "loadMs": 328.09999990463257,
+      "searchMs": 3665.2999999523163,
+      "pairs": 3999,
+      "embeddings": 3374,
+      "cacheHits": 0,
+      "inferenceBatches": 423,
+      "passages": 3356,
+      "paragraphs": 643,
+      "sentences": 3306,
+      "headings": 50,
+      "effectiveQuery": "Who founded Apple?",
+      "candidates": 220,
+      "reranker": "cross-encoder/ettin-reranker-17m-v1",
+      "rerankPairs": 40,
+      "rerankCacheHits": 0,
+      "rerankLoadMs": 311.10000014305115,
+      "rerankMs": 1185.9000000953674,
+      "maxPairTokens": 1024,
+      "rerankLongestPair": 206
+    },
+    "visibleCount": 4,
+    "topResults": [
+      {
+        "text": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. Its current name was adopted in 2007 as the company expanded its focus from computers to consumer electronics. Apple is one of the Big Tech companies.",
+        "rerankScore": 11.247270174475725
+      },
+      {
+        "text": "Apple Computer Company was founded as a partnership on April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne.[5][6] The company's first product was the Apple I, designed by Wozniak and hand-built.[7] To finance production, Jobs sold his Volkswagen Bus and Wozniak sold his HP-65 calculator. Although neither received the full selling price, together they raised $1,300 (equivalent to $7,400 in 2025).[8]",
+        "rerankScore": 11.217494182323193
+      },
+      {
+        "text": "In 1976, Steve Jobs and Steve Wozniak co-founded Apple in Jobs' parents' home in Los Altos, California.",
+        "rerankScore": 10.369080577981162
+      }
+    ]
+  },
+  "warm": {
+    "metrics": {
+      "embeddingInferenceMs": 13.899999856948853,
+      "embeddingRuntime": {
+        "device": "webgpu",
+        "dtype": "q4f16"
+      },
+      "embeddingBatchSize": 8,
+      "rerankerRuntime": {
+        "device": "webgpu",
+        "dtype": "fp32"
+      },
+      "rerankBatches": 10,
+      "loadMs": 0,
+      "searchMs": 143,
+      "pairs": 3999,
+      "embeddings": 1,
+      "cacheHits": 3356,
+      "inferenceBatches": 1,
+      "passages": 3356,
+      "paragraphs": 643,
+      "sentences": 3306,
+      "headings": 50,
+      "effectiveQuery": "Where is Apple headquartered?",
+      "candidates": 221,
+      "reranker": "cross-encoder/ettin-reranker-17m-v1",
+      "rerankPairs": 40,
+      "rerankCacheHits": 0,
+      "rerankLoadMs": 0,
+      "rerankMs": 88.20000004768372,
+      "maxPairTokens": 1024,
+      "rerankLongestPair": 341
+    },
+    "visibleCount": 3,
+    "topResults": [
+      {
+        "text": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. Its current name was adopted in 2007 as the company expanded its focus from computers to consumer electronics. Apple is one of the Big Tech companies.",
+        "rerankScore": 12.035156141847406
+      },
+      {
+        "text": "Apple's headquarters are located at Apple Park in Cupertino, in the center of Silicon Valley. Opened in 2017, the circular groundscraper houses more than 12,000 employees. Apple co-founder Steve Jobs envisioned the campus as resembling a nature preserve rather than a conventional office park, and presented the proposal to the Cupertino City Council in June 2011 during his final public appearance before his death.",
+        "rerankScore": 11.02159084859968
+      },
+      {
+        "text": "Apple's headquarters for Europe, the Middle East and Africa (EMEA) are located in Cork in the south of Ireland, called the Hollyhill campus.[256] The facility, which opened in 1980, houses 5,500 people and was Apple's first location outside of the United States.[257] Apple's international sales and distribution arms operate out of the campus in Cork.[258]",
+        "rerankScore": 10.566255215326374
+      }
+    ]
+  }
+}
